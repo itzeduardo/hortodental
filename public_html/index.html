@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html ng-app>
+    <head>
+        <title>Trabajo Final</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Eduardo Perez Torres">
+        <meta name="description" content="Diplomado UVM">
+        <meta name=“keywords” content=“Dentista”>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/css/bootstrap-combined.min.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>   
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <link href="Style.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+
+
+        <header>     
+            <div class="p-2 bg-ligth text-dark text-center">
+                <h1>Dentista</h1>
+                <p>Sonrisas Seguras!</p> 
+            </div>
+        </header> 
+
+        <!-- La <NAV>etiqueta define un conjunto de enlaces de navegación. -->
+        <nav id="topnav" class="bg-ligth">
+            <div>
+                <a class="active" href="#"> Ortho </a>
+                <img class="active" src="ortho-Logo1.png" alt="Ortho Dental" style="width:57px"/>
+                <div class="icon">
+                    <a href="javascript:void(0);" onclick="openNav()">
+                        <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+                    </a>
+                </div>
+                <div class="split">
+                    <a href="#"> Nosotros </a>
+                    <a href="#"> Tratamientos  </a>
+                    <a href="#"> Radiologia  </a>
+                    <a href="#"> Contacto </a>
+                    <a href="#"> Blog </a>
+                    <a href="#about">Help</a>
+                </div>
+            </div>
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav> 
+
+        <!-- First Parallax Image with Logo Text -->
+        <div class="bg-img1">          
+            <div class="bg-text">
+                <h1 style="font-size:50px">I am John Doe</h1>
+                <p>And I'm a Photographer</p>
+                <span class="Text-Parallax">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span>
+                <button>Hire me</button>
+            </div>
+
+        </div>
+
+
+
+        <div class="main">
+
+            <div class="Texto"><h1>Nuestros Servicios</h1></div><!-- comment -->
+
+            <div class="row">
+                <div class="column">
+                    <div class="container" style=" opacity: 0.8; background-color: #FFA62F">
+                        <h1>Periodoncia</h1>
+                        <p>Corrige la posición de tus dientes y obtén una sonrisa de aspecto agradable.</p>
+                    </div>
+                </div>
+
+                <div class="column ">
+                    <div class="container bg-success">
+
+                        <p>Dra. Leticia Perez Torres</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container bg-info">
+
+                        <p>Dr. Eduardo Perez Torres</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container bg-warning">
+
+                        <p>Dr. Samuel Garcia Fuentes</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container bg-danger">
+
+                        <p>Dra. Lorena Perez Torre</p>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="container bg-secondary">
+
+                        <p>Dra. Leticia Perez Torres</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container bg-dark text-white">
+
+                        <p>Dr. Eduardo Perez Torres</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container bg-light">
+
+                        <p>Dr. Samuel Garcia Fuentes</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="Texto"><h1>Nuestros Servicios</h1></div>
+
+            <div class="row">
+                <div class="column">
+                    <div class="container">
+                        <img src="ortho-rehabilitacion.jpg" alt="Ortho Dental" style="width:100%"/>
+                        <p>Dra. Lorena Perez Torre</p>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="container">
+                        <img src="ortho-preventiva.jpg" alt="Ortho Dental" style="width:100%"/>              
+                        <p>Dra. Leticia Perez Torres</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container">
+                        <img src="ortho-periodoncia.jpg" alt="Ortho Dental" style="width:100%"/>
+                        <p>Dr. Eduardo Perez Torres</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container">
+                        <img src="ortho-odontopediatra.jpg" alt="Ortho Dental" style="width:100%"/>
+                        <p>Dr. Samuel Garcia Fuentes</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container">
+                        <img src="ortho-implantologia.jpg" alt="Ortho Dental" style="width:100%"/>
+                        <p>Dr. Eduardo Perez Zuñiga</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container">
+                        <img src="ortho-estetica.jpg" alt="Ortho Dental" style="width:100%"/>
+                        <p>Dra. Silvia Zuñiga Garcia</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container">
+                        <img src="ortho-endodoncia.jpg" alt="Ortho Dental" style="width:100%"/>
+                        <p>Dr. Lizete Delgado Perez</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="container">
+                        <img src="ortho-cirugia-oral.jpg" alt="Ortho Dental" style="width:100%"/>
+                        <p>Dr. Naomi Zuñiga Solorio</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- First Parallax Image with Logo Text -->
+            <div class="bg-img2">
+                <div>
+
+                </div>
+            </div>
+            <footer>
+                <div>
+                    <label>Name:</label>
+                    <input type="text" ng-model="yourName" placeholder="Enter a name here">
+                    <hr>
+                    <h1>Hello {{yourName}}!</h1>
+                </div>
+                <hr>
+            </footer>
+
+            <footer>
+                <p>Author: Ing Eduardo Perez Torres<br>
+                    <a href="#">ejarros.com</a></p>
+            </footer>
+        </div> <!-- End Main -->
+
+
+        <!-- Menu NAV -->
+        <script>
+            window.onscroll = function () {
+                myFunction();
+            };
+
+            var navbar = document.getElementById("topnav");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky");
+                    document.getElementById("topnav").style.background = color = "#0d8bf2";
+                } else {
+                    navbar.classList.remove("sticky");
+                    document.getElementById("topnav").style.background = color = "#0099ff";
+                }
+
+                /*Menu en miniatura*/
+
+            }
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+
+    </body>
+</html>
